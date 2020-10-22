@@ -1,0 +1,14 @@
+body{
+    color:#222;
+    background: white;
+}
+table{
+    color: #222 !important;
+}
+.table th, .table td{
+    border-bottom:1px solid #e5e5e5;
+    border-top:0;
+}
+.table thead th{
+    border-bottom:1px solid #e5e5e5;
+}

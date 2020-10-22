@@ -1,0 +1,23 @@
+.shop-header{
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom:24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-header .logo {
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    padding-left: 24px;
+}
+
+.shop-header .shopping-cart{
+    align-self: center;
+    font-size: 24px;
+    padding-right: 24px;
+}
+.shop-header .cart-icon{
+    font-size: 36px;
+    color: cadetblue;
+    margin-right: 10px;
+}
