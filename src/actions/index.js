@@ -32,7 +32,24 @@ const bookAddedToCart = (bookId) => {
     }
 };
 
+const bookRemoveFromCart = (bookId) => {
+    return {
+        type: 'BOOK_REMOVE_FROM_CART',
+        payload: bookId
+    }
+};
+
+const allBooksRemoveFromCart = (bookId) => {
+    return {
+        type: 'ALL_BOOK_REMOVE_FROM_CART',
+        payload: bookId
+    }
+};
+
+
 export {
     fetchBooks,
-    bookAddedToCart
+    bookAddedToCart,
+    bookRemoveFromCart,
+    allBooksRemoveFromCart
 };
